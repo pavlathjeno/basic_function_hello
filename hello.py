@@ -1,8 +1,5 @@
 # Task 1 - printing hello
-def hello():
-    return print("hello")
-
-hello()
+print("hello")
 
 # Task 2 - customized print
 name = input("Name:")
@@ -22,3 +19,9 @@ def helloname(name):
 
 
 helloname(input("Name:"))
+
+# Task 5 - Handle defaults
+def def_arg(hello):
+      print(hello + " world")
+
+def_arg("hello")
