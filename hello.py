@@ -25,3 +25,9 @@ def def_arg(hello):
       print(hello + " world")
 
 def_arg("hello")
+
+# Task 6 - who greet who
+def who_to_who(send_name, receive_name):
+    print(f"{send_name} says hello to {receive_name}")
+    
+who_to_who(receive_name = "Feri", send_name = "Sanyi")
