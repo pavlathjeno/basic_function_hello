@@ -15,3 +15,10 @@ def inputname():
 
 inputname()
 
+# Task 4 - Open to extend
+
+def helloname(name):
+    return print(f"hello {name}")
+
+
+helloname(input("Name:"))
